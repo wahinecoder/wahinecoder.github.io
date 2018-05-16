@@ -72,7 +72,7 @@ header {
   text-align: center;  
 /*changes background color in the header section*/
 background: transparent;
-background-image: url("assets/FP_line-drawing_color.png");
+background-image: url("assets/Section1-Background.jpg");
   color: transparent;
 }
 header .container {
@@ -106,9 +106,12 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+
+/*Navigation Bar*/
+/*potential colors: #39C3C4, #0893B9*/
 .navbar-custom {
     /*navigation bar background color*/
-  background: #862d59;
+  background: #0893B9;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -187,6 +190,17 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+
+
+/*centering images*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 25%;*/
+    border-radius: 50%;
+}
 section {
   padding: 100px 0;
 }
@@ -198,8 +212,9 @@ section h2 {
 /*Style Section*/
 section.success {
 /*background: #18BC9C;*/  
-background: #004d4d;
+background: #39C3C4;
   color: white;
+    
 }
 @media (max-width: 767px) {
   section {
@@ -393,8 +408,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: white;
+  border-color: white;
 }
 .btn-success:active,
 .btn-success.active,
