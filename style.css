@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+    
 }
 p {
   font-size: 20px;
@@ -70,10 +71,18 @@ hr.star-primary:after {
 
 header {
   text-align: center;  
-/*changes background color in the header section*/
+/*changes background color in the header section
 background: transparent;
+     background-repeat: no-repeat;
+    background-position: center; 
 background-image: url("assets/Section1-Background.jpg");
-  color: transparent;
+  color: transparent;*/
+    
+    background: url("assets/Section1-Background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header .container {
   padding-top: 100px;
@@ -87,7 +96,7 @@ header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -202,7 +211,7 @@ header .intro-text .skills {
     border-radius: 50%;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
