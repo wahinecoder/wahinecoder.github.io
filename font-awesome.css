@@ -606,6 +606,12 @@ https://cdn.hyperdev.com/us-east-1:a0cc5cfb-cb85-47d9-8053-bd7ceccfa4dd/fontawes
 .fa-github-square:before {
   content: "\f092";
 }
+
+.fa-github: before{
+    content: "\f09b"
+}
+
+
 .fa-upload:before {
   content: "\f093";
 }
