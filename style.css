@@ -78,7 +78,7 @@ background: transparent;
 background-image: url("assets/Section1-Background.jpg");
   color: transparent;*/
     
-    background: url("assets/Section1-Background.jpg") no-repeat center center fixed;
+    background: url("assets/Section1-BackgroundTwo.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -539,4 +539,9 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+/*testimonial*/
+p.testimonial {
+    font-style: italic;
 }
