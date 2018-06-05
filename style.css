@@ -569,4 +569,16 @@ p.testimonial {
     padding: 25px;
 }
 
+.intro-row{
+    
+     border-radius: 25px;
+    background: #18BC9C;
+    padding: 20px; 
+    width: 75%
+    height: 150px; 
+   
+       
+  
+}
+
 
