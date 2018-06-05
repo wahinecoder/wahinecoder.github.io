@@ -572,7 +572,8 @@ p.testimonial {
 .intro-row{
     
      border-radius: 25px;
-    background: #18BC9C;
+    border: 2px solid #18BC9C;
+    
     padding: 20px; 
     width: 75%
     height: 150px; 
