@@ -546,3 +546,27 @@ fieldset[disabled] .btn-success.active {
 p.testimonial {
     font-style: italic;
 }
+
+/*service boxes*/
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+@media (min-width: 992px) {
+  .service-box {
+    margin: 20px auto 0;
+  }
+}
+.service-box p {
+  margin-bottom: 0;
+}
+    
+.text-primary {
+  color: #18BC9C;
+}
+
+.row-padding {
+    padding: 25px;
+}
+
+
