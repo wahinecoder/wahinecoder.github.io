@@ -72,6 +72,7 @@ hr.star-primary:after {
 header {
   text-align: center; 
     border: 25px solid #18BC9C;
+    color: #2C3E50;
 /*changes background color in the header section
 background: transparent;
      background-repeat: no-repeat;
@@ -567,7 +568,7 @@ p.testimonial {
 }
 
 .row-padding {
-    padding: 25px;
+    padding: 10px;
 }
 
 .intro-row{
@@ -576,11 +577,22 @@ p.testimonial {
     border: 2px solid #18BC9C;
     
     padding: 20px; 
-    width: 75%
-    height: 150px; 
-   
-       
   
+    height: 300px; 
+    width: 375px;
+     
+}
+
+.curve-corners{
+     border-radius: 25px;
+}
+
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 
