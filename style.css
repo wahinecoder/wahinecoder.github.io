@@ -95,7 +95,8 @@ header .intro-text .name {
 }
 header .intro-text .skills {
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 400;
+    color:#2C3E50;
 }
 @media (min-width: 768px) {
   header .container {
@@ -106,11 +107,11 @@ header .intro-text .skills {
     font-size: 4.75em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 2.50em;
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #188abc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -185,7 +186,8 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+    /*changed padding in section*/
+  padding: 20px 0;
 }
 section h2 {
   margin: 0;
@@ -546,6 +548,7 @@ p.testimonial {
   
     height: 250px; 
     width: 400px;
+    margin-right: 5px
      
 }
 
@@ -559,6 +562,11 @@ p.testimonial {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.section-heading{
+    padding-top: 20px;
+    font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
