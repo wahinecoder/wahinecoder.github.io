@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+* {
+    box-sizing: border-box;
+}
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -540,17 +544,15 @@ p.testimonial {
 }
 
 .intro-row{
-    
+    margin: auto;
      border-radius: 25px;
     border: 2px solid #18BC9C;
     
-    padding: 20px; 
+    padding: 5px; 
   
-    height: 250px; 
-    width: 400px;
-     -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
+    height: 300px; 
+    width: 325px;
+    
   box-sizing: border-box;
      
 }
