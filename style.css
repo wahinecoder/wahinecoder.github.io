@@ -74,13 +74,13 @@ hr.star-primary:after {
 
 body{
    margin-top: 50px
+
 }
 header {
   text-align: center;
   background: transparent;
   border: 15px solid #18BC9C;
   color: #2C3E50;
-    
 }
 header .container {
   padding-top: 100px;
