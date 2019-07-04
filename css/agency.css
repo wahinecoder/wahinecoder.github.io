@@ -67,6 +67,10 @@ h6 {
     padding: 150px 0;
   }
 }
+/*make text mobile responsive*/
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
 
 ::-moz-selection {
   background: #fbaf08;
